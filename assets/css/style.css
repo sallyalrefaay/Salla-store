@@ -1,0 +1,1905 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-size: 10px;
+}
+/* home page (index) */
+/* start of nav (header) */
+header nav{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header nav .nav-info{
+    padding: 0.8rem 7rem;
+    width: 100vw;
+    height: 40px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    color: #666666;
+}
+
+header nav .nav-info ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+header nav .info , header nav .info div{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+header nav .nav-info .border{
+    width: 1rem;
+    height: 1px;
+    background-color: #D6D6D6;
+    rotate: -90deg;
+}
+
+header nav .navbar{
+    padding: 3.2rem 7rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+header nav .navbar .logo{
+    max-width: 10.6rem;
+    max-height: 5.2rem;
+}
+
+header nav .navbar .desc-info{
+    display: flex;
+    gap: 3.2rem;
+}
+
+header nav .navbar .desc-info .desc{
+    display: flex;
+    gap: 0.8rem;
+}
+
+header nav .navbar .desc-info .desc p{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #A5A5A5;
+    text-align: center;
+}
+
+header nav .navbar .desc-info .desc h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #333333;
+    text-align: right;
+}
+
+header nav .navbar .desc-info .desc .arrow{
+    display: flex;
+    align-items: center;
+}
+
+header nav .navbar .desc-info .desc .arrow img{
+    padding-bottom: 2px;
+}
+
+header nav .navbar .desc-info .desc a{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end of nav (header) */
+
+/* start of hero (header) */
+header .hero{
+    background-image: url(../img/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+header .hero h1{
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 7rem;
+    color: #FFFFFF;
+}
+
+header .hero .desc{
+    padding: 2rem;
+    max-width: 110rem;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+header .hero .desc p{
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #F8F8F8;
+}
+
+header .hero .desc img{
+    width: 5.6rem;
+    height: 6rem;
+}
+
+header .hero button{
+    width: 20rem;
+    height: 5.6rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #62D0B6;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
+/* end of hero (header) */
+
+/* start of offers section */
+main .offers .services{
+    margin: 4.4rem 7rem;
+    padding: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    border: 1px #EEEEEE solid;
+}
+
+main .offers .services .card{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+main .offers .services .card h2{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: #333333;
+}
+
+main .offers .services .card p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #666666;
+}
+
+main .offers .cards{
+    padding: 4.4rem 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.4rem;
+}
+
+main .offers .cards .card{
+    max-width: 59.8rem;
+    position: relative;
+}
+
+main .offers .cards .card img{
+    max-width: 100%;
+}
+
+main .offers .cards .desc{
+    max-height: 40%;
+    padding-left: 2.4rem;
+    position: absolute;
+    top: 28%;
+}
+
+main .offers .cards .desc p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #666666;
+}
+
+main .offers .cards .desc h2{
+    font-size: 2.7rem;
+    font-weight: 500;
+    line-height: 4.9rem;
+    color: #333333;
+}
+
+main .offers .cards .desc button{
+    width: 10.8rem;
+    height: 4.5rem;
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #333333;
+}
+/* end of offers section */
+
+/* start of products section */
+main .products nav , main .categories nav , main .offers-ending nav{
+    padding: 3.2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main .products nav h1 , main .categories nav h1 , main .offers-ending nav h1 , main .reviews h1 , main .brands h1 , main .similar-products h1{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+    color: #333333;
+}
+
+main .products nav p , main .categories nav p , main .offers-ending nav p , main .reviews p , main .brands p , main .similar-products p{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    color: #666666;
+}
+
+main .products nav a , main .categories nav a , main .offers-ending nav a{
+    width: 10.7rem;
+    height: 3.8rem;
+    border-radius: 4px;
+    border: 1px #62D0B6 solid;
+    color: #62D0B6;
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .products nav a img , main .categories nav a img , main .offers-ending nav a img{
+    padding-right: 5px;
+}
+
+main .products .cards{
+    padding: 3.2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+}
+
+main .products .cards .card , main .similar-products .cards .card , .products-page .cards .card{
+    width: 28.8rem;
+    border-radius: 4px;
+    border: 1px #EEEEEE solid;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+main .products .cards .card:hover , .products-page .cards .card:hover{
+    border: 1px #62D0B6 solid;
+}
+
+main .products .cards .card .sale , .products-page .cards .card .sale{
+    position: relative;
+}
+
+main .products .cards .card .sale .percent , main .offers-ending .cards .card .sale .percent , .products-page .cards .card .sale .percent , main .products .cards .card .sale .new , .products-page .cards .card .sale .new{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 80%;
+}
+
+main .products .cards .card .sale .rectangle , main .offers-ending .cards .card .sale .rectangle , .products-page .cards .card .sale .rectangle{
+    width: 6.7rem;
+    height: 3rem;
+    margin-left: 1.6rem;
+    padding: 1rem;
+    background-color: #F55157;
+    border-radius: 2px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main .products .cards .card .sale .triangle , main .offers-ending .cards .card .sale .triangle , .products-page .cards .card .sale .triangle{
+    width: 0;
+    height: 0;
+    border-top: 0.45rem solid transparent;
+    border-bottom: 0.45rem solid transparent;
+    border-left: 0.9rem solid #F55157;
+}
+
+main .products .cards .card .sale .new .rectangle, .products-page .cards .card .sale .new .rectangle{
+    background-color: #62D0B6;
+}
+
+main .products .cards .card .sale .new .triangle , .products-page .cards .card .sale .new .triangle{
+    border-left: 0.9rem solid #62D0B6;
+}
+
+
+
+main .products .cards .card img , main .similar-products .cards .card img , .products-page .cards .card img{
+    width: 100%;
+    height: 22.8rem;
+}
+
+main .products .cards .card .desc , main .similar-products .cards .card .desc , .products-page .cards .card .desc{
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+main .products .cards .card .desc h3 , .offers-ending .cards .card .desc h3 , main .similar-products .cards .card .desc h3 , .products-page .cards .card .desc h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #62D0B6;
+}
+
+main .products .cards .card .desc h2 , .offers-ending .cards .card .desc h2 , main .similar-products .cards .card .desc h2 , .products-page .cards .card .desc h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: #333333;
+}
+
+main .products .cards .card .desc h4 , .offers-ending .cards .card .desc h4 , main .similar-products .cards .card .desc h4 , .products-page .cards .card .desc h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #666666;
+}
+
+main .products .cards .card .desc del , main .similar-products .cards .card .desc del , .products-page .cards .card .desc del{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #A5A5A5;
+}
+
+main .products .cards .card .desc p , .offers-ending .cards .card .desc .price , main .similar-products .cards .card .desc p , .products-page .cards .card .desc p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #F55157;
+}
+
+main .products .cards .card .desc .price , main .similar-products .cards .card .desc .price , .products-page .cards .card .desc .price{
+    color: #333333;
+}
+
+main .products .cards .card .buttons , main .similar-products .cards .card .buttons , .products-page .cards .card .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0 1.6rem 1.6rem 1.6rem;
+}
+
+main .products .cards .card .buttons button , .offers-ending .cards .card .buttons button , main .similar-products .cards .card .buttons button , .products-page .cards .card .buttons button{
+    border-radius: 4px;
+    border: 1px #EEEEEE solid;
+    background: none;
+}
+
+main .products .cards .card .buttons .heart , .offers-ending .cards .card .buttons .heart , main .similar-products .cards .card .buttons .heart , .products-page .cards .card .buttons .heart{
+    width: 5rem;
+    height: 5.6rem;
+}
+
+main .products .cards .card .buttons .cart , main .similar-products .cards .card .buttons .cart , .products-page .cards .card .buttons .cart{
+    width: 19.9rem;
+    height: 5.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: #333333;
+}
+
+main .products .cards .card .buttons .cart img , main .similar-products .cards .card .buttons .cart img , .products-page .cards .card .buttons .cart img{
+    padding-top: 4px;
+}
+
+main .products .cards .card .buttons .cart:hover , .products-page .cards .card .buttons .cart:hover{
+    background-color: #62D0B6;
+    color: #FFFFFF;
+}
+
+main .products .cards .card .buttons img , main .similar-products .cards .card .buttons img , .products-page .cards .card .buttons img{
+    width: 16px;
+    height: 16px;
+}
+
+main .products .hero{
+    margin: 3.6rem 0;
+    padding: 0 7rem;
+    height: 50rem;
+    background-image: url(../img/hero-bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .products .hero div{
+    width: 43%;
+}
+
+main .products .hero h1 , main .offers-ending .hero h1{
+    font-size: 4.8rem;
+    font-weight: 400;
+    line-height: 7rem;
+    color: #FFFFFF;
+}
+
+main .products .hero p , main .offers-ending .hero p{
+    padding: 1.6rem 0;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
+
+main .products .hero button , main .offers-ending .hero button{
+    width: 20rem;
+    height: 5.6rem;
+    border: none;
+    background-color: #62D0B6;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+main .products .hero .img img{
+    width: 100%;
+    height: 100%;
+}
+/* end of products section */
+
+/* start of categories section */
+main .categories .items{
+    padding: 3.2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.4rem;
+}
+
+main .categories .items .item{
+    max-width: 15.5rem;
+    height: 20.6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+main .categories .items .item div img{
+    max-width: 13.5rem;
+    max-height: 13.5rem;
+}
+main .categories .items .item h2{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #333333;
+}
+
+main .categories .items .item p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #666666;
+}
+/* end of categories section */
+
+/* start of offers-ending section */
+main .offers-ending{
+    padding: 3.2rem 0;
+}
+
+main .offers-ending .cards{
+    padding: 5.6rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+main .offers-ending .cards .card{
+    max-width: 60.1rem;
+    display: flex;
+    align-items: center;
+    border: 2px #62D0B6 solid;
+    border-radius: 4px;
+}
+
+main .offers-ending .cards .card .sale{
+    max-width: 19.6rem;
+    position: relative;
+}
+
+main .offers-ending .cards .card .sale img{
+    width: 100%;
+}
+
+main .offers-ending .cards .card .desc{
+    max-width: 38.9rem;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.offers-ending .cards .card .desc .rate{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #A5A5A5;
+}
+
+.offers-ending .cards .card .desc .cols{
+    display: flex;
+    gap: 0.8rem;
+}
+.offers-ending .cards .card .desc .cols div{
+    width: 8.4rem;
+    height: 4.9rem;
+    border-radius: 4px;
+    background-color: #F8F8F8;
+    padding: 0.4rem 1.6rem 0.8rem;
+    text-align: center;
+}
+
+.offers-ending .cards .card .desc .cols div h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #333333;
+}
+
+.offers-ending .cards .card .desc .cols div p{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #A5A5A5;
+}
+
+.offers-ending .cards .card .buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.offers-ending .cards .card .buttons .cart{
+    width: 29.9rem;
+    height: 5.6rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #62D0B6;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.offers-ending .cards-2{
+    padding: 3.2rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.4rem;
+    text-align: center;
+}
+
+.offers-ending .cards-2 img{
+    width: 100%;
+}
+
+.offers-ending .cards-2 h2{
+    padding-top: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.offers-ending .cards-2 p{
+    padding-bottom: 2.4rem;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #666666;
+}
+
+.offers-ending .cards-2 button{
+    border: none;
+    background: none;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+
+.offers-ending .cards-2 .card-1{
+    max-width: 39.2rem;
+    padding: 3.2rem 5.6rem;
+    border-radius: 4px;
+    background-color: #FDDCDD;
+}
+
+.offers-ending .cards-2 .card-2{
+    max-width: 39.2rem;
+    padding: 3.2rem 5.6rem;
+    border-radius: 4px;
+    background-color: #FFEFDA;
+}
+
+.offers-ending .cards-2 .card-3{
+    max-width: 39.2rem;
+    padding: 3.2rem 5.6rem;
+    border-radius: 4px;
+    background-color: #E0F6F0;
+}
+
+.offers-ending .hero{
+    margin: 3.6rem 0;
+    padding: 0 7rem;
+    height: 50rem;
+    background-image: url(../img/hero-bg-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    text-align: center;
+}
+
+.offers-ending .hero p{
+    max-width: 50.3rem;
+}
+
+.offers-ending .hero .icon{
+    padding-top: 1.6rem;
+    display: flex;
+    gap: 6px;
+}
+
+.offers-ending .hero .icon .circle{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px #EEEEEE solid;
+}
+
+.offers-ending .hero .icon .rect{
+    width: 37px;
+    height: 14px;
+    border-radius: 10px;
+    background-color: #62D0B6;
+    border: none;
+}
+/* end of offers-ending section */
+
+/* start of reviews section */
+main .reviews{
+    padding: 3.2rem 7rem;
+}
+
+main .reviews .cards{
+    height: 29.9rem;
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+main .reviews .cards .card{
+    max-width: 38rem;
+    height: 27.9rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+    padding: 2.4rem 1.6rem;
+}
+
+main .reviews .cards .card .icons{
+    max-height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .reviews .cards .card .icons>img{
+    max-width: 3.2rem;
+    max-height: 3.2rem;
+}
+
+main .reviews .cards .card p{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #666666;
+}
+
+main .reviews .cards .card h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #333333;
+}
+
+main .reviews .cards .card h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #666666;
+}
+/* end of reviews section */
+
+/* start of brands section */
+main .brands{
+    padding: 3.2rem 7rem;
+}
+
+main .brands .cards{
+    margin-top: 3.2rem;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+main .brands .cards .card{
+    width: 226px;
+    height: 110px;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+    padding: 2.4rem;
+}
+
+main .brands .cards .card img{
+    width: 100%;
+    height: 100%;
+}
+/* end of brands section */
+
+/* start of footer */
+footer .info{
+    background-color: #F8F8F8;
+    padding: 2.4rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+
+footer .info .desc{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+footer .info .desc .icon{
+    width: 6.4rem;
+    height: 6.4rem;
+    padding: 1.6rem;
+    border-radius: 50%;
+    background-color: #D6F8F080;
+}
+
+footer .info .desc .icon img{
+    width: 100%;
+}
+
+footer .info .desc h2{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #333333;
+}
+
+footer .info .desc p{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #666666;
+}
+
+footer .info .email{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+footer .info .email input{
+    padding: 1rem 1.6rem 1.2rem;
+    width: 35.2rem;
+    height: 3.9rem;
+    border-radius: 4px;
+    border: 1px #EEEEEE solid;
+}
+
+footer .info .email button{
+    width: 9rem;
+    height: 3.9rem;
+    background-color: #62D0B6;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+footer .rights{
+    padding: 1.6rem 7rem;
+    background-color: #1D1F1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+footer .rights p{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #FFFFFF;
+}
+
+footer .rights .pay{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer .rights .pay .brand{
+    width: 77px;
+    height: 31px;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+}
+
+footer .rights .pay .brand img{
+    width: 46px;
+    height: 19px;
+}
+/* end of footer */
+
+
+
+
+
+
+
+
+
+
+
+/* products page */
+main .products-page{
+    margin-top: 15.6rem;
+    padding: 4rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.4rem;
+}
+
+main .products-page .sidebar{
+    width: 28.2rem;
+    max-height: 127rem;
+    padding: 1.6rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+}
+
+.products-page .sidebar .section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.products-page .sidebar .section .row{
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-page .sidebar .section h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    color: #333333;
+}
+
+.products-page .sidebar .section .arrow{
+    rotate: -90deg;
+}
+
+.products-page .sidebar .section p , .products-page .sidebar .section label{
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #666666;
+}
+
+.products-page .sidebar .section label{
+    padding-right: 0.8rem;
+    list-style: 1.7rem;
+}
+
+.products-page .sidebar .section h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #62D0B6;
+    margin-bottom: 1rem;
+}
+
+.products-page .sidebar .line{
+    margin: 1.6rem 0;
+    width: 24.8rem;
+    border: 1px #EEEEEE solid;
+}
+
+.products-page .sidebar .section .row .circle .label{
+    padding-right: 0.5rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.products-page .sidebar .section .row .circle .red{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #F55157;
+}
+
+.products-page .sidebar .section .row .circle .green{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00AF6C;
+}
+
+.products-page .sidebar .section .row .circle .black{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333333;
+}
+
+.products-page .sidebar .section .row .circle .blue{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #62D0B6;
+}
+
+.products-page .sidebar .section .row .circle .yellow{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #FFAF44;
+}
+
+
+.products-page .sidebar .section .row .circle{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.products-page .sidebar .section .row .stars{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.products-page .sidebar .section button{
+    width: 24.8rem;
+    height: 3.8rem;
+    border: 1px #333333 solid;
+    border-radius: 4px;
+    background: none;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #333333;
+}
+
+.products-page .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+}
+
+.products-page .cards a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* product details page */
+/* start of product-details section */
+main .product-details{
+    padding: 18.6rem 7rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+}
+
+.product-details .img{
+    max-width: 61.6rem;
+}
+
+.product-details .img img{
+    width: 100%;
+}
+
+.product-details .details{
+    max-width: 58.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.product-details h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    color: #333333;
+}
+
+.product-details .comment{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.product-details .comment p{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #666666;
+}
+
+.product-details .comment .line{
+    width: 1.6rem;
+    border: 1px #EEEEEE solid;
+    rotate: -90deg;
+}
+
+.product-details .text{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #666666;
+}
+
+.product-details h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #62D0B6;
+}
+
+.product-details .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.product-details .cards .card{
+    max-width: 58.6rem;
+    padding: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+}
+
+.product-details .cards .card .desc{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.product-details .cards .card .desc p{
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: #333333;
+}
+
+.product-details .cards .card .desc h4{
+    max-width: 38.3rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: #A5A5A5;
+}
+
+.product-details .cards .card .add{
+    width: 3.2rem;
+    height: 3.2rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    color: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-details .cards .card button{
+    width: 9.5rem;
+    height: 3.8rem;
+    background: none;
+    border: 1px #62D0B6 solid;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #62D0B6;
+}
+
+.product-details .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details .price .count{
+    max-width: 18rem;
+    max-height: 5rem;
+    padding: 1.6rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details .price .count p{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #333333;
+}
+
+.product-details .price .count .line{
+    width: 5rem;
+    border: 1px #EEEEEE solid;
+    rotate: -90deg;
+}
+
+.product-details .price h3{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    color: #333333;
+}
+
+.product-details .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+
+.product-details .buttons button{
+    width: 28.5rem;
+    height: 5.6rem;
+    background: none;
+    border: 1px #62D0B6 solid;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #62D0B6;
+}
+
+.product-details .buttons :nth-child(2){
+    background-color: #62D0B6;
+    color: #FFFFFF;
+}
+/* end of product-details section */
+
+/* start of Similar products section */
+main .similar-products{
+    padding: 3.2rem 7rem;
+}
+
+main .similar-products .cards{
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+/* end of Similar products section */
+
+
+
+
+
+
+
+
+/* cart page */
+/* start of cart-details section */
+main .cart-details{
+    padding: 20.6rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+}
+
+.cart-details .cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.cart-details .cards .card{
+    padding: 1.6rem;
+    max-width: 92rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4.5rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+}
+
+.cart-details .cards .card .info{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.cart-details .cards .card .img img{
+    width: 100%;
+}
+
+.cart-details .cards .card .desc p{
+    max-width: 35.2rem;
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: #333333;
+}
+
+.cart-details .cards .card .desc h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #666666;
+}
+
+.cart-details .cards .card .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+.cart-details .cards .card .count{
+    max-width: 17.4rem;
+    max-height: 5rem;
+    padding: 1.6rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.cart-details .cards .card .count p{
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: #666666;
+}
+
+.cart-details .cards .card p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #333333;
+}
+
+.cart-details .cards .card .count h4{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #666666;
+}
+
+.cart-details .cards .card .count .line{
+    width: 1.6rem;
+    border: 1px #EEEEEE solid;
+    rotate: -90deg;
+}
+
+.cart-details .cards .card .x{
+    max-width: 2.8rem;
+    max-height: 2.8rem;
+    padding: 0.5rem 0.9rem;
+    background-color: #F8F8F8;
+    border-radius: 50%;
+    font-size: 1.4rem;
+}
+
+.cart-details .order-details{
+    width: 28.2rem;
+    height: 33.2rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.cart-details .order-details h2{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #333333;
+}
+
+.cart-details .order-details .total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-details .order-details .total p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #666666;
+}
+
+.cart-details .order-details .total .text{
+    color: #333333;
+}
+
+.cart-details .order-details .total h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #A5A5A5;
+}
+.cart-details .order-details h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color: #333333;
+}
+
+.cart-details .order-details .code{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cart-details .order-details input{
+    width: 19.2rem;
+    height: 3.8rem;
+    padding-left: 1.2rem;
+    border: 1px #EEEEEE solid;
+    border-radius: 4px;
+    background: none;
+}
+
+.cart-details .order-details input::placeholder{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #A5A5A5;
+}
+
+.cart-details .order-details button{
+    width: 5.4rem;
+    height: 3.8rem;
+    background: none;
+    border: 1px #62D0B6 solid;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #62D0B6;
+}
+
+.cart-details .order-details .line{
+    width: 25rem;
+    border: 1px #EEEEEE solid;
+}
+
+.cart-details .order-details a{
+    width: 25rem;
+    height: 5.6rem;
+    padding: 1.6rem;
+    border-radius: 4px;
+    background-color: #62D0B6;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+/* end of cart-details section */
+
+
+
+
+
+
+
+/* check out page */
+/* start of check-out section */
+main .check-out{
+    padding: 15.6rem 5.8rem 3.2rem ;
+}
+main .check-out h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    color: #3C4242;
+}
+
+main .check-out .details{
+    max-width: 90rem;
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+main .check-out .details p{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 2%;
+    color: #3C4242;
+}
+
+main .check-out .details input{
+    width: 38.2rem;
+    height: 4.9rem;
+    margin-top: 2.9rem;
+    padding: 1.6rem 2rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #F6F6F6;
+}
+
+main .check-out .details .state{
+    position: relative;
+}
+
+main .check-out .details .state img{
+    position: absolute;
+    right: 2rem;
+    top: 5rem;
+}
+
+main .check-out .details input::placeholder{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #807D7E;
+}
+
+main .check-out .details .small{
+    width: 24.6rem;
+}
+
+main .check-out button{
+    margin: 2rem 0;
+    width: 20.9rem;
+    height: 5.3rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #62D0B6;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+main .check-out span{
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #3C4242;
+}
+
+main input::placeholder{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #807D7E;
+}
+/* end of check-out section */
+
+/* start of payment section */
+main .payment{
+    padding: 3.2rem 5.8rem ;
+}
+
+main .payment h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 3.4rem;
+    color: #3C4242;
+}
+
+main .payment p{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #3C4242;
+}
+
+main .payment .details{
+    margin-top: 5.8rem;
+    padding: 2rem 6.9rem 4rem 4.3rem;
+    max-width: 122.6rem;
+    border-radius: 12px;
+    background-color: #F6F6F6;
+}
+
+/* main .payment .details input{
+    accent-color: #62D0B6;
+} */
+
+main .payment .details label{
+    padding-left: 2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #3C4242;
+}
+
+main .payment .details p{
+    padding-left: 3.4rem;
+}
+
+main .payment .details .credit{
+    padding: 3.7rem 3.4rem ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+main .payment .details .credit div{
+    padding: 14px 19px;
+    width: 80px;
+    height: 46px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+main .payment .details .credit div img{
+    width: 100%;
+}
+
+main .payment .details .info{
+    padding-left: 3.4rem;
+    padding-bottom: 3.4rem;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3.4rem;
+}
+
+main .payment .details .info .code{
+    position: relative;
+}
+
+main .payment .details .info .code img{
+    position: absolute;
+    right: 2rem;
+    top: 1.4rem;
+}
+
+main .payment .details .info input{
+    width: 33.7rem;
+    height: 4.9rem;
+    border-radius: 8px;
+    border: 1px #3C4242 solid;
+    padding: 1.6rem 2rem;
+    background: none;
+}
+
+main .payment .details .line{
+    margin: 2rem 0;
+    height: 1px;
+    max-width: 76.4rem;
+    background-color: #BEBCBD;
+}
+
+main .payment .details button{
+    margin-top: 3.8rem;
+    width: 25.6rem;
+    height: 5.4rem;
+    border-radius: 8px;
+    background-color: #62D0B6;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+/* end of payment section */
+
+
+
+
+
+
+
+
+/* info page */
+/* start of hello section */
+main .hello{
+    padding: 18.3rem 5rem 5rem 5rem;
+    max-width: 89.8rem;
+}
+
+main .hello h1{
+    padding-left: 2.1rem;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    color: #3C4242;
+}
+
+main .hello>p{
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    line-height: 3.4rem;
+    color: #807D7E;
+}
+
+main .hello h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    color: #3C4242;
+}
+
+main .hello h3{
+    margin: 2rem 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3.4rem;
+    color: #3C4242;
+}
+
+main .hello .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+main .hello .info h4{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    color: #807D7E;
+}
+
+main .hello .info p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    color: #3C4242;
+}
+
+main .hello .line{
+    margin: 2rem 0;
+    height: 1px;
+    max-width: 89.8rem;
+    background-color: #EDEEF2;
+}
+
+main .hello button{
+    width: 12.6rem;
+    height: 5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #62D0B6;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+/* end of hello section */
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    *{
+        font-size: 8px;
+    }
+    header nav .nav-info{
+        flex-direction: column;
+    }
+    header nav .navbar{
+        justify-content: space-between;
+        padding: 2rem 4rem;
+    }
+    header nav .navbar .desc-info{
+        gap: 2rem;
+    }
+    header nav .navbar .desc-info .desc h3{
+        font-size: 1.3rem;
+    }
+    header nav .navbar .logo{
+        width: 8rem;
+        height: 4rem;
+    }
+    header .hero{
+        gap: 1rem;
+    }
+    header .hero h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    header .hero p{
+        font-size: 1.5rem;
+    }
+    main .offers .services{
+        flex-direction: column;
+        gap: 2rem;
+        margin: 2rem 4rem;
+    }
+    main .offers .cards{
+        padding: 2rem 4rem;
+        flex-direction: column;
+    }
+    main .offers .cards .desc{
+        top: 10%;
+    }
+    main .products nav , main .categories nav , main .offers-ending nav{
+        padding: 2rem 4rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    main .products .cards , main .similar-products{
+        padding: 2rem 4rem;
+        align-items: center;
+    }
+    main .products .hero{
+        margin: 2rem 0;
+        padding: 0 4rem;
+    }
+    main .products .hero h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    main .products .hero p{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+    main .products .hero button{
+        width: 10rem;
+        height: 4rem;
+        font-size: 1rem;
+    }
+    main .categories .items{
+        padding: 2rem 4rem;
+        overflow-x: scroll;
+        gap: 0.5rem;
+    }
+    main .offers-ending .cards{
+        padding: 2rem 4rem;
+        flex-direction: column;
+    }
+    .offers-ending .cards .card{
+        flex-direction: column;
+    }
+    .offers-ending .cards .card .desc .cols{
+        flex-wrap: wrap;
+    }
+    .offers-ending .cards .card .buttons .cart{
+        width: 20rem;
+    }
+    .offers-ending .cards-2{
+        padding: 2rem 4rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .reviews{
+        padding: 2rem 4rem;
+    }
+    main .reviews .cards{
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    main .reviews .cards .card{
+        padding: 1rem 1rem;
+    }
+    main .brands{
+        padding: 2rem 4rem;
+    }
+    main .brands .cards{
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    footer .info{
+        flex-direction: column;
+    }
+    footer .rights{
+        flex-direction: column;
+    }
+    main .hello{
+        padding: 18.3rem 4rem 2rem;
+    }
+    main .check-out{
+        padding: 15.6rem 4rem 2rem;
+    }
+    main .check-out .details input{
+        max-width: 28rem;
+    }
+    main .check-out .details .small{
+        max-width: 24.6rem;
+    }
+    main .payment{
+        padding: 2rem 4rem;
+    }
+    main .payment .details{
+        padding: 1rem;
+    }
+    main .payment .details .info input{
+        max-width: 25rem;
+    }
+    main .cart-details{
+        padding: 20rem 4rem;
+    }
+    .cart-details .cards .card{
+        gap: 1.5rem;
+        padding: 1.2rem;
+    }
+    .cart-details .cards .card .desc p , .cart-details .cards .card p{
+        font-size: 1.4rem;
+    }
+    
+    .cart-details .cards .card .price{
+        gap: 1.5rem;
+    }
+    .cart-details .cards .card .count{
+        padding: 1rem;
+        gap: 1rem;
+    }
+    main .product-details{
+        padding: 20rem 4rem 4rem;
+    }
+    main .products-page{
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .products-page{
+        flex-direction: column;
+    }
+}
